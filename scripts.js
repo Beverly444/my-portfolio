@@ -1,5 +1,5 @@
-// Toggle dark/light theme
-document.querySelector("#theme-toggle").addEventListener("click", function() {
-  document.body.classList.toggle("dark-theme");
-});
+const themeToggle = document.getElementById('theme-toggle');
 
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+});
