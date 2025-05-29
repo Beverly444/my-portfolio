@@ -5,8 +5,8 @@ body {
             background-color: #f4f4f4;
             color: #333;
             transition: background 0.3s, color 0.3s;
-        }
-        header {
+}
+header {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -14,21 +14,21 @@ body {
             background: #333;
             color: white;
         }
-        button {
+button {
             padding: 10px;
             border: none;
             cursor: pointer;
         }
-        #projects .project {
+#projects .project {
             border: 1px solid #ddd;
             padding: 10px;
             margin: 10px 0;
             background: white;
         }
-        .dark-mode {
+.dark-mode {
             background-color: #333;
             color: white;
         }
-        .dark-mode #projects .project {
+.dark-mode #projects .project {
             background: #444;
         }
